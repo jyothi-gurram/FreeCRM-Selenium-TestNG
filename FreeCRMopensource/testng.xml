@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="FreeCRMTestCases">
+<test thread-count="5" name="Regression">
+<classes>
+  <class name="com.crm.qa.TestCases.LoginPageTest"/>
+  <class name="com.crm.qa.TestCases.HomePageTest"/>
+</classes>
+
+</test>
+  <test thread-count="5" name="complete">
+    <classes>
+      <class name="com.crm.qa.TestCases.HelpPageTest"/>
+      <class name="com.crm.qa.TestCases.LoginPageTest"/>
+      <class name="com.crm.qa.TestCases.SignUpPageTest"/>
+      <class name="com.crm.qa.TestCases.TaskPageTest"/>
+      <class name="com.crm.qa.TestCases.UpgradeAccountPageTest"/>
+      <class name="com.crm.qa.TestCases.HomePageTest"/>
+      <class name="com.crm.qa.TestCases.ContactsPageTest"/>
+      <class name="com.crm.qa.TestCases.DocumentPageTest"/>
+      <class name="com.crm.qa.TestCases.LoginFunTest"/>
+    </classes> 
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

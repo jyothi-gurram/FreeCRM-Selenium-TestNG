@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FreeCRMTestCases]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.crm.qa.TestCases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="VerifyCorrectUserTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.TestCases.HomePageTest -->
+      <class name="com.crm.qa.TestCases.UpgradeAccountPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="VerifyUpgradeAccountPageAlertTxtTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.TestCases.UpgradeAccountPageTest -->
+      <class name="com.crm.qa.TestCases.DocumentPageTest">
+        <methods>
+          <include name="VerifyCreateNewDocTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.TestCases.DocumentPageTest -->
+      <class name="com.crm.qa.TestCases.LoginFunTest">
+        <methods>
+          <include name="VerifyLoginFunTest" invocation-numbers="2"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.crm.qa.TestCases.LoginFunTest -->
+      <class name="com.crm.qa.TestCases.SignUpPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="SignupPageTest" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.crm.qa.TestCases.SignUpPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [FreeCRMTestCases] -->
